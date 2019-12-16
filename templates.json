@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "templates": {
+    "go": {
+      "url": "https://gitlab.51zcm.cc/go/util",
+      "branch": "master",
+      "description": "这是一个测试"
+    }
+  }
+}
