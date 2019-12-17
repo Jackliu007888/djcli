@@ -4,7 +4,25 @@
     "go": {
       "url": "https://gitlab.51zcm.cc/go/util",
       "branch": "master",
-      "description": "这是一个测试"
+      "description": "go 模板"
+    }, 
+    "eggjs": {
+      "url": "https://gitlab.51zcm.cc/front/service",
+      "branch": "master",
+      "description": "eggjs S端模板",
+      "replace": {
+        "variables": {
+          "spaceName": "微服务空间名",
+          "k8sServerName": "服务名",
+          "dockerRegistryNamespace": "docker空间名"
+        },
+        "paths": [
+          "Jenkinsfile",
+          "package.json",
+          "build.sh",
+          "Dockerfile"
+        ]
+      }
     }
   }
 }
