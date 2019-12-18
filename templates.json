@@ -8,7 +8,7 @@
     }, 
     "eggjs": {
       "url": "https://gitlab.51zcm.cc/front/service",
-      "branch": "master",
+      "branch": "test",
       "description": "eggjs S端模板",
       "replace": {
         "variables": {
@@ -19,8 +19,7 @@
         "paths": [
           "Jenkinsfile",
           "package.json",
-          "build.sh",
-          "Dockerfile"
+          "build.sh"
         ]
       }
     }

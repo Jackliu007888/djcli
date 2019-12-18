@@ -6,6 +6,7 @@
     "djcli": "./bin/cli.js"
   },
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,8 +15,11 @@
     "chalk": "^2.3.2",
     "cli-table": "^0.3.1",
     "commander": "^2.15.1",
-    "fse": "^4.0.1",
+    "fs-extra": "^8.1.0",
     "inquirer": "^7.0.1",
     "ora": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
   }
 }
