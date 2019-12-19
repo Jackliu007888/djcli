@@ -1,24 +1,20 @@
-# djcli 前端应用 脚手架
+# fecli 前端应用 脚手架
 
 ## 安装
 
 ```shell
-git clone ...
-
-npm i
-
-npm link
+npm i -g @jackliulovelt/dj-cli
 ```
 
 ## 命令
 
-- 查看现有模板 `djcli l`
+- 查看现有模板 `fecli l`
 
-- 查看git配置 `djcli c`
+- 查看git配置 `fecli c`
 
-- 设置git配置 `djcli sc`
+- 设置git配置 `fecli sc`
 
-- 初始化一个模板 `djcli init`
+- 初始化一个模板 `fecli init`
 
 ## 模板配置
 

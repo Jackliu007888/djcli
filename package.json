@@ -1,9 +1,9 @@
 {
-  "name": "djcli",
-  "version": "1.0.0",
+  "name": "@jackliulovelt/dj-cli",
+  "version": "1.0.3",
   "description": "a frontend cli",
   "bin": {
-    "djcli": "./bin/cli.js"
+    "fecli": "./bin/cli.js"
   },
   "scripts": {
     "lint": "eslint .",
