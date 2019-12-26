@@ -14,9 +14,14 @@ npm i -g @jackliulovelt/dj-cli
 
 - 设置git配置 `fecli sc`
 
-- 初始化一个模板 `fecli init`
+- 初始化一个项目模板 `fecli init`
 
-## 模板配置
+- 新建一个文件模板 `fecli new`
+  - 需进入待生成文件模板的目录，再执行命令
+  - 目前支持的文件模板有 router 、controller 、service
+  - 文件模板的新增方式：在 templates 目录下新增 xxx.js,定义 prompts 和 stringFn 即可。
+
+## 项目模板配置
 
 形如以下形式
 

@@ -1,6 +1,6 @@
 {
   "name": "@jackliulovelt/dj-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a frontend cli",
   "bin": {
     "fecli": "./bin/cli.js"
