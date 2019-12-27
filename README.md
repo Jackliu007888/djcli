@@ -40,9 +40,9 @@ npm i -g @jackliulovelt/dj-cli
   "description": "eggjs S端模板",
   "replace": {
     "variables": {
-      "spaceName": "微服务空间名",
+      "spaceName": "k8s 部署空间",
       "k8sServerName": "服务名",
-      "dockerRegistryNamespace": "docker空间名"
+      "dockerRegistryNamespace": "docker 仓库空间"
     },
     "paths": [
       "Jenkinsfile",

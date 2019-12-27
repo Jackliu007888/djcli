@@ -5,16 +5,16 @@
       "url": "https://gitlab.51zcm.cc/go/util",
       "branch": "master",
       "description": "go 模板"
-    }, 
+    },
     "eggjs": {
       "url": "https://gitlab.51zcm.cc/front/service",
       "branch": "master",
       "description": "eggjs S端模板",
       "replace": {
         "variables": {
-          "spaceName": "微服务空间名",
+          "spaceName": "k8s 部署空间",
           "k8sServerName": "服务名",
-          "dockerRegistryNamespace": "docker空间名",
+          "dockerRegistryNamespace": "docker 仓库空间",
           "apolloAppId": "apollo appId"
         },
         "paths": [
@@ -22,7 +22,8 @@
           "package.json",
           "build.sh",
           "sonar-project.properties",
-          "apollo.js"
+          "apollo.js",
+          "README.md"
         ]
       }
     }
