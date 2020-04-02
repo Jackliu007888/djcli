@@ -1,6 +1,8 @@
-const Utils = require('../utils')
+const Utils = require('../../utils')
 
 module.exports = {
+  version: '1.0.0',
+  description: 'controller 模板文件',
   prompts: [{
     name: 'controllerName',
     message: '请输入 controller 名称'

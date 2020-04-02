@@ -1,4 +1,6 @@
 module.exports = {
+  version: '1.0.0',
+  description: 'Router 模板文件',
   prompts: [{
     name: 'controllerName',
     message: '请输入 controller 名称'

@@ -1,0 +1,27 @@
+
+{
+  "version": "1.0.0",
+  "templates": {
+    "block": {
+      "url": "https://gitlab.51zcm.cc/front/service",
+      "branch": "master",
+      "description": "block 测试",
+      "replace": {
+        "variables": {
+          "spaceName": "k8s 部署空间",
+          "k8sServerName": "服务名",
+          "dockerRegistryNamespace": "docker 仓库空间",
+          "apolloAppId": "apollo appId"
+        },
+        "paths": [
+          "Jenkinsfile",
+          "package.json",
+          "build.sh",
+          "sonar-project.properties",
+          "apollo.js",
+          "README.md"
+        ]
+      }
+    }
+  }
+}

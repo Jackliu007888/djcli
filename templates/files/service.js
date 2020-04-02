@@ -1,6 +1,8 @@
-const Utils = require('../utils')
+const Utils = require('../../utils')
 
 module.exports = {
+  version: '1.0.0',
+  description: 'Service 模板文件',
   prompts: [{
     name: 'repoName',
     message: '请输入 repoName 名称'
